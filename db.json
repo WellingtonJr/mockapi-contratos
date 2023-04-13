@@ -1,14 +1,86 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "prefeitura_membro": [
+ {
+  "name": "Et voluptatem dolor",
+  "cpf": "123.123.123-12",
+  "phone": "(21)31231-2312",
+  "email": "sepow@mailinator.com",
+  "type": "SECRETARY",
+  "status": true,
+  "contractCity": 62,
+  "start": "02/02/2023",
+  "end": 1681352098,
+  "id": "1"
+ },
+ {
+  "name": "Sed veniam qui prov",
+  "cpf": "123.123.123-12",
+  "phone": "(13)21231-2312",
+  "email": "jukelogo@mailinator.com",
+  "type": "SECRETARY",
+  "status": "",
+  "contractCity": 6,
+  "start": "12/31/2312",
+  "end": 1681354951,
+  "id": "2"
+ },
+ {
+  "name": "Irure est exercitat",
+  "cpf": "132.123.123-12",
+  "phone": "(12)31231-2312",
+  "email": "dila@mailinator.com",
+  "type": "VICE_MAYOR",
+  "status": true,
+  "contractCity": 62,
+  "start": "12/31/2312",
+  "end": 1681355019,
+  "id": "3"
+ }
+],
+  "contractcities": [
+ {
+  "name": "Tste123",
+  "state": "MA",
+  "year": 2023,
+  "status": "INATIVE",
+  "type": "YEARLY",
+  "phone": "(21)31231-2312",
+  "id": "1"
+ },
+ {
+  "name": "Tste1234",
+  "state": "MA",
+  "year": 2023,
+  "status": "ACTIVE",
+  "type": "SEMESTER",
+  "phone": "(21)31231-2312",
+  "id": "2"
+ }
+],
+  "payments": [
+	  	{
+	  "id": 123,
+	  "dueDate": "2023-05-01",
+	  "payDay": "2023-05-10",
+	  "paymentMethod": "CREDIT_CARD",
+	  "city": 456,
+	  "discount": 10,
+	  "lateFee": 5,
+	  "value": 100,
+	  "status": true
+	}
+	,
+	{
+	  "id": 12,
+	  "dueDate": "2023-05-01",
+	  "payDay": "2023-05-10",
+	  "paymentMethod": "CREDIT_CARD",
+	  "city": 456,
+	  "discount": 10,
+	  "lateFee": 5,
+	  "value": 100,
+	  "status": true
+	}
+
+  ]
 }
